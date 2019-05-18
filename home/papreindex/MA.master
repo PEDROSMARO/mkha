@@ -1,0 +1,84 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MA.master.cs" Inherits="MA" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title> My Website</title>
+
+ 
+
+     
+   
+<script type="text/javascript" src="js/jquery23.js">  </script>
+    
+    <script type="text/javascript">
+        function mainmenu() {
+            $("#nav ul ").css({ display: "none" });
+
+            $("#nav li ").hover(function () {
+                $(this).find('ul:first').css({ visibility: "visible", display: "none" }).show(400);
+            }
+            , function () {
+                $(this).find('ul:first').css({ visibility: "hidden" });
+            });
+        }
+        $(document).ready(function () {
+            mainmenu();
+        });
+
+    </script>
+
+
+        <link href="css/style.css" rel="stylesheet" />
+     <link href="css/bootstrap.css" rel="stylesheet" />
+
+     
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+
+ <link rel="stylesheet" type="text/css" href="Styles/StyleSheet1.css"  />
+     <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="wrapper">
+       <div id="banner" >
+  
+            </div>
+        <div id="navigation" >
+            <ul id="nav">
+                <li> <a href="Home.aspx">Home</a> </li>
+               <li> <a href="Papers.aspx">Papers</a> 
+         
+                </li>
+                 <li> <a href="authers.aspx">Authers</a> </li>
+                 <li>  <a href="Journals.aspx">Journals</a> </li>
+                 <li> <a href="about.aspx">About</a> </li>
+             
+
+            </ul>
+              
+
+            </div>
+
+      
+        <div id="contentarea" >
+   <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+       </asp:ContentPlaceHolder>
+               <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
+       </asp:ContentPlaceHolder>
+            </div>
+           
+        <div id="slidebar" >
+  
+            </div>
+         <div id="footer" >
+             <p>   Desing by Marwa Kadour        </p>
+  
+            </div>
+        </div>
+    </form>
+</body>
+</html>

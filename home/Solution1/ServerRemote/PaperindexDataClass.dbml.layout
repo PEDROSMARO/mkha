@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="PaperindexDataClass">
+  <DataContextMoniker Name="/PaperindexDataClassDataContext" />
+  <nestedChildShapes>
+    <classShape Id="472de2bd-c130-44ae-856a-fd206c974c2e" absoluteBounds="4.25, 0.75, 2, 3.1170068359374996">
+      <DataClassMoniker Name="/PaperindexDataClassDataContext/Paper" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e0802ac3-756c-4409-8ddc-fa495142b557" absoluteBounds="4.265, 1.21, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a48addb3-1a52-4fe4-861a-9b78d9b6cf18" absoluteBounds="0.625, 1, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/PaperindexDataClassDataContext/journal" />
+      <nestedChildShapes>
+        <elementListCompartment Id="86ae8372-0710-4a2c-95f8-7690b1b7474d" absoluteBounds="0.64000000000000012, 1.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.625 : 1.88544840494792); (4.25 : 1.88544840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/PaperindexDataClassDataContext/journal/journal_Paper" />
+      <nodes>
+        <classShapeMoniker Id="a48addb3-1a52-4fe4-861a-9b78d9b6cf18" />
+        <classShapeMoniker Id="472de2bd-c130-44ae-856a-fd206c974c2e" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="PaperindexDataClass">
+  <DataContextMoniker Name="/PaperindexDataClassDataContext" />
+  <nestedChildShapes>
+    <classShape Id="0f2d7558-c471-476f-8e27-08c513126198" absoluteBounds="0.5, 1.875, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/PaperindexDataClassDataContext/journal" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b793134e-0f36-4e2d-be83-5ee42d33341c" absoluteBounds="0.51500000000000012, 2.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="735284ac-08f8-4461-bc7d-0da01ea3091b" absoluteBounds="2.625, 4.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/PaperindexDataClassDataContext/Auther" />
+      <nestedChildShapes>
+        <elementListCompartment Id="761b72cc-5a54-4f8a-9763-2c89605f96e0" absoluteBounds="2.64, 4.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.5 : 3.64589680989583); (1.5 : 5.38544840494792); (2.625 : 5.38544840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/PaperindexDataClassDataContext/journal/journal_Auther" />
+      <nodes>
+        <classShapeMoniker Id="0f2d7558-c471-476f-8e27-08c513126198" />
+        <classShapeMoniker Id="735284ac-08f8-4461-bc7d-0da01ea3091b" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="1a7594e6-cec5-4a61-a06a-b4170a010907" absoluteBounds="5.875, 2.25, 2, 3.1170068359375">
+      <DataClassMoniker Name="/PaperindexDataClassDataContext/Paper" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fd6e2e51-56fb-478b-8318-7eb5ba6ded3e" absoluteBounds="5.89, 2.71, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.5 : 2.94794840494792); (5.875 : 2.94794840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/PaperindexDataClassDataContext/journal/journal_Paper" />
+      <nodes>
+        <classShapeMoniker Id="0f2d7558-c471-476f-8e27-08c513126198" />
+        <classShapeMoniker Id="1a7594e6-cec5-4a61-a06a-b4170a010907" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

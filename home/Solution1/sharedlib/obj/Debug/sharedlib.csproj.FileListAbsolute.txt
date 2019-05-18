@@ -1,0 +1,5 @@
+D:\home\Solution1\sharedlib\bin\Debug\sharedlib.dll
+D:\home\Solution1\sharedlib\bin\Debug\sharedlib.pdb
+D:\home\Solution1\sharedlib\obj\Debug\sharedlib.dll
+D:\home\Solution1\sharedlib\obj\Debug\sharedlib.pdb
+D:\home\Solution1\sharedlib\obj\Debug\sharedlib.csprojResolveAssemblyReference.cache

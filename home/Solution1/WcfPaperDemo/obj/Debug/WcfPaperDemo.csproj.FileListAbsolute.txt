@@ -1,0 +1,8 @@
+D:\home\Solution1\WcfPaperDemo\bin\Debug\WcfPaperDemo.dll.config
+D:\home\Solution1\WcfPaperDemo\bin\Debug\WcfPaperDemo.dll
+D:\home\Solution1\WcfPaperDemo\bin\Debug\WcfPaperDemo.pdb
+D:\home\Solution1\WcfPaperDemo\obj\Debug\WcfPaperDemo.dll
+D:\home\Solution1\WcfPaperDemo\obj\Debug\WcfPaperDemo.pdb
+D:\home\Solution1\WcfPaperDemo\obj\Debug\WcfPaperDemo.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\home\home\Solution1\WcfPaperDemo\obj\Debug\WcfPaperDemo.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\home\home\Solution1\WcfPaperDemo\obj\Debug\WcfPaperDemo.dll

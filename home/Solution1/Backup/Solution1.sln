@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "papreindex", "http://localhost:4286", "{A66848A1-88DF-4C20-97DF-C02B1A15A875}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_4286"
+		Debug.AspNetCompiler.PhysicalPath = "..\papreindex\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4286\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_4286"
+		Release.AspNetCompiler.PhysicalPath = "..\papreindex\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4286\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\papreindex\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{15B3E0D2-6217-493A-A690-158C497F5318} = {15B3E0D2-6217-493A-A690-158C497F5318}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sharedlib", "sharedlib\sharedlib.csproj", "{42A8CEB3-B06F-43C9-82F8-FC9682C3FC66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerRemote", "ServerRemote\ServerRemote.csproj", "{D521E0FC-AF6A-4321-98F0-F913CE355697}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfPaperDemo", "WcfPaperDemo\WcfPaperDemo.csproj", "{15B3E0D2-6217-493A-A690-158C497F5318}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A66848A1-88DF-4C20-97DF-C02B1A15A875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A66848A1-88DF-4C20-97DF-C02B1A15A875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A66848A1-88DF-4C20-97DF-C02B1A15A875}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A66848A1-88DF-4C20-97DF-C02B1A15A875}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{42A8CEB3-B06F-43C9-82F8-FC9682C3FC66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42A8CEB3-B06F-43C9-82F8-FC9682C3FC66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42A8CEB3-B06F-43C9-82F8-FC9682C3FC66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42A8CEB3-B06F-43C9-82F8-FC9682C3FC66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D521E0FC-AF6A-4321-98F0-F913CE355697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D521E0FC-AF6A-4321-98F0-F913CE355697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D521E0FC-AF6A-4321-98F0-F913CE355697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D521E0FC-AF6A-4321-98F0-F913CE355697}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15B3E0D2-6217-493A-A690-158C497F5318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15B3E0D2-6217-493A-A690-158C497F5318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15B3E0D2-6217-493A-A690-158C497F5318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15B3E0D2-6217-493A-A690-158C497F5318}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

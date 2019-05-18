@@ -1,0 +1,16 @@
+D:\home\Solution1\ServerRemote\bin\Debug\ServerRemote.exe.config
+D:\home\Solution1\ServerRemote\bin\Debug\ServerRemote.exe
+D:\home\Solution1\ServerRemote\bin\Debug\ServerRemote.pdb
+D:\home\Solution1\ServerRemote\obj\Debug\ServerRemote.csprojResolveAssemblyReference.cache
+D:\home\Solution1\ServerRemote\obj\Debug\ServerRemote.exe
+D:\home\Solution1\ServerRemote\obj\Debug\ServerRemote.pdb
+D:\home\Solution1\ServerRemote\bin\Debug\sharedlib.dll
+D:\home\Solution1\ServerRemote\bin\Debug\sharedlib.pdb
+C:\Users\User\Desktop\home\home\Solution1\ServerRemote\bin\Debug\ServerRemote.exe.config
+C:\Users\User\Desktop\home\home\Solution1\ServerRemote\obj\Debug\ServerRemote.exe
+C:\Users\User\Desktop\home\home\Solution1\ServerRemote\obj\Debug\ServerRemote.pdb
+C:\Users\User\Desktop\home\home\Solution1\ServerRemote\bin\Debug\ServerRemote.exe
+C:\Users\User\Desktop\home\home\Solution1\ServerRemote\bin\Debug\ServerRemote.pdb
+C:\Users\User\Desktop\home\home\Solution1\ServerRemote\bin\Debug\sharedlib.dll
+C:\Users\User\Desktop\home\home\Solution1\ServerRemote\bin\Debug\sharedlib.pdb
+C:\Users\User\Desktop\home\home\Solution1\ServerRemote\obj\Debug\ServerRemote.csprojResolveAssemblyReference.cache

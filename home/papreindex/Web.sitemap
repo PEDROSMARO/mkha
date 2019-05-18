@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="Home.aspx" title="Home"  description="Main page ">
+  
+        <siteMapNode url="authers.aspx" title="Authers"  description="authers" />
+        
+        <siteMapNode url="about.aspx" title="About "  description="ABOUT" />
+
+      
+      <siteMapNode url="Papers.aspx" title="Papers "  description="Papers" >
+  
+         <siteMapNode url="addpaper.aspx" title="Add Paper "  description=" ADD Papers" />
+       <siteMapNode url="deletepaper.aspx" title="Delete Paper "  description=" Delete Papers" />
+      <siteMapNode url="modifypaper.aspx" title="Modify Paper "  description="Modify Papers" />
+        <siteMapNode url="vertpaper.aspx" title="Vert Paper "  description="Vert Papers" />
+        <siteMapNode url="retrivepaper.aspx" title="Retrieve Paper "  description="Retrieve Papers" >
+          <siteMapNode url="retrivebyid.aspx" title="Retrieve Paper By ID "  description="Retrieve Papers" />
+            <siteMapNode url="retrivebytitle.aspx" title="Retrieve Paper By Title "  description="Retrieve Papers" />
+            </siteMapNode>
+  </siteMapNode>
+    
+
+  <siteMapNode url="Journals.aspx" title="Journals "  description="Journals" >
+
+    <siteMapNode url="addjournal.aspx" title="Add Journal "  description="ADD Journals" />
+    <siteMapNode url="deljournal.aspx" title="Delete Journal "  description="Delete Journals" />
+    <siteMapNode url="modifajournal.aspx" title="Modify Journal "  description="Modify Journals" />
+    <siteMapNode url="retjournal.aspx" title="Retrieve Journal "  description="Retrieve Journals" />
+  </siteMapNode>
+
+    </siteMapNode>
+  
+      
+</siteMap>

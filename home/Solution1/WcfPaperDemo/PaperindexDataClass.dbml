@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="papersindex" Class="PaperindexDataClassDataContext" Serialization="Unidirectional" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=papersindex;Integrated Security=True;Pooling=False" SettingsObjectName="WcfPaperDemo.Properties.Settings" SettingsPropertyName="papersindexConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.journal" Member="journals">
+    <Type Name="journal">
+      <Column Name="jouID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="journalTitle" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="joucity" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="jousubject" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="jouclass" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="journal_Auther" Member="Authers" ThisKey="jouclass" OtherKey="autherpaperjournalclass" Type="Auther" />
+      <Association Name="journal_Paper" Member="Papers" ThisKey="journalTitle" OtherKey="jouTitle" Type="Paper" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Auther" Member="Authers">
+    <Type Name="Auther">
+      <Column Name="auhterid" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="autherpaperid" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="authername" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="autherpaperyear" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="autherpaperjournalclass" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="journal_Auther" Member="journal" ThisKey="autherpaperjournalclass" OtherKey="jouclass" Type="journal" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Paper" Member="Papers">
+    <Type Name="Paper">
+      <Column Name="paperId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="papTitle" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="jouTitle" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="issunumber" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="volumenumber" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NumoFAuther" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Authers" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="FirstPagePaper" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="LastpagePaper" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="abstract" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Keywords" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Yearofpub" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="journal_Paper" Member="journal" ThisKey="jouTitle" OtherKey="journalTitle" Type="journal" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>
